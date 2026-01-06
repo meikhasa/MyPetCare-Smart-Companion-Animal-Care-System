@@ -1,0 +1,71 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 20, 2025, 2:41:32 AM
+    Author     : achma
+*/
+body.register-body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ), url("../img/pet-bg.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    width: 420px;
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-form input,
+.register-form textarea,
+.register-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.register-form textarea {
+    resize: none;
+    height: 70px;
+}
+
+.btn-register {
+    width: 100%;
+    background: #0080ff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-register:hover {
+    background: #005fcc;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+

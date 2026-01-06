@@ -1,0 +1,134 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 22, 2025, 9:36:02 PM
+    Author     : achma
+*/
+
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6fb;
+}
+
+/* HEADER */
+.market-header{
+    background:#4f46e5;
+    padding:20px 40px;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.back-link{
+    color:white;
+    text-decoration:none;
+}
+
+.market-title{
+    font-size:20px;
+    font-weight:600;
+}
+
+/* LAYOUT */
+.container{
+    max-width:1200px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.cart-layout{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:30px;
+}
+
+/* ITEM */
+.cart-item{
+    background:white;
+    padding:16px;
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    margin-bottom:16px;
+}
+
+.cart-item img{
+    width:90px;
+    height:90px;
+    border-radius:12px;
+    object-fit:cover;
+}
+
+.info h4{
+    margin:0;
+}
+
+.info p{
+    margin:4px 0;
+    color:#777;
+}
+
+.qty{
+    margin-left:auto;
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.qty button{
+    width:32px;
+    height:32px;
+    border:none;
+    background:#eee;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+/* SUMMARY */
+.summary{
+    background:white;
+    padding:20px;
+    border-radius:16px;
+}
+
+.summary h3{
+    margin-top:0;
+}
+
+.summary p{
+    display:flex;
+    justify-content:space-between;
+}
+
+.checkout{
+    width:100%;
+    padding:14px;
+    background:#4f46e5;
+    border:none;
+    color:white;
+    border-radius:12px;
+    font-size:15px;
+}
+
+/* EMPTY */
+.empty-cart{
+    background:white;
+    padding:80px;
+    text-align:center;
+    border-radius:16px;
+}
+
+.btn-start{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 24px;
+    background:#4f46e5;
+    color:white;
+    text-decoration:none;
+    border-radius:12px;
+}

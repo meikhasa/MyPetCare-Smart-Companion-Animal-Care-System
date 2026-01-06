@@ -1,0 +1,138 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 20, 2025, 6:38:04 AM
+    Author     : achma
+*/
+
+/* ===============================
+   TAMBAH HEWAN - OWNER
+   =============================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* CONTAINER */
+.form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1565c0;
+}
+
+/* FORM GROUP */
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+/* INPUT */
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #1e88e5;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(30,136,229,0.15);
+}
+
+/* TEXTAREA */
+.form-group textarea {
+    resize: vertical;
+    min-height: 90px;
+}
+
+/* FILE */
+.form-group input[type="file"] {
+    padding: 6px;
+}
+
+/* BUTTON */
+.form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.btn-submit {
+    background: #1e88e5;
+    color: white;
+    border: none;
+    padding: 12px 22px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-submit:hover {
+    background: #1565c0;
+}
+
+.btn-cancel {
+    background: #e0e0e0;
+    color: #333;
+    padding: 12px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.btn-cancel:hover {
+    background: #cfcfcf;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    .form-container {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .form-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .btn-submit,
+    .btn-cancel {
+        width: 100%;
+        text-align: center;
+    }
+}

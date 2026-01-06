@@ -1,0 +1,116 @@
+/* LOGIN PAGE */
+body.login-body {
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+
+    /* Background image + overlay gelap */
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url("../img/pet-bg.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card login */
+.login-container {
+    width: 360px;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login-container p.subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Form */
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.login-form input:focus {
+    outline: none;
+    border-color: #0080ff;
+}
+
+/* Button */
+.btn-login {
+    background: #0080ff;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background: #005fcc;
+}
+
+/* Register link */
+.register-link {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.register-link a {
+    color: #0080ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
